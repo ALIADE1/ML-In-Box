@@ -1,3 +1,9 @@
+
+# => The primary objective of the K-Means algorithm is to minimize the within-cluster sum of squares (WCSS), which represents the sum of squared distances between data points 
+# and their corresponding centroid
+
+# => This objective function is non-convex with respect to the cluster assignments and the centroids
+
 import numpy as np
 from sklearn.datasets import make_blobs
 import matplotlib.pyplot as plt
